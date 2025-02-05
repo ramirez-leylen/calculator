@@ -11,8 +11,8 @@ app.use(express.static('public'));
 
 
 // VIEW ENGINE
-app.set("view engine", "ejs");
-app.set("views", __dirname+"/views");
+// app.set("view engine", "ejs");
+// app.set("views", __dirname+"/views");
 
 
 
