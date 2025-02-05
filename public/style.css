@@ -1,0 +1,51 @@
+:root {
+    --bg: #ff7b91;
+    --buttons: #ffb2bf;
+    --accent: #ff3f5f;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+body {
+    background-color: var(--bg);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+/* main {
+    background-color: aliceblue;
+    margin: 0;
+    height: 100vh;
+} */
+
+.container {
+    width: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 8px;
+}
+
+.result {
+    grid-area: 1 / 1 / 2 / 6;
+    color: white;
+    font-size: 3em;
+    overflow: scroll;
+}
+
+.button {
+    background-color: var(--buttons);
+    color: white;
+    font-size: 2em;
+    border: none;
+    border-radius: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.--accent {
+    background-color: var(--accent);
+}

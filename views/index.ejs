@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- <main> -->
+        <div class="container">
+            <p class="result" id="result">0</p>
+            <button class="button" onclick="display('7')">7</button>
+            <button class="button" onclick="display('8')">8</button>
+            <button class="button" onclick="display('9')">9</button>
+            <button class="button --accent" onclick="display('*')">*</button>
+            <button class="button --accent" onclick="clr()">c</button>
+
+            <button class="button" onclick="display('4')">4</button>
+            <button class="button" onclick="display('5')">5</button>
+            <button class="button" onclick="display('6')">6</button>
+            <button class="button --accent" onclick="display('/')">/</button>
+            <button class="button --accent" onclick="back()">&lt;</button>
+
+            <button class="button" onclick="display('1')">1</button>
+            <button class="button" onclick="display('2')">2</button>
+            <button class="button" onclick="display('3')">3</button>
+            <button class="button --accent" onclick="display('-')">-</button>
+            <div></div>
+            <button class="button" onclick="display('.')">.</button>
+            <button class="button" onclick="display('0')">0</button>
+            <button class="button --accent" onclick="solve()">=</button>
+            <button class="button --accent" onclick="display('+')">+</button>
+           
+
+        </div>
+    <!-- </main> -->
+    
+    <script src="/js/calculator.js"></script>
+</body>
+</html>
